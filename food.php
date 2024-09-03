@@ -1,7 +1,7 @@
 <?php
 // Database connection
-$host = 'Zayn-development.github.io';
-$db = 'malaysian_culture';
+$host = 'localhost';
+$db = 'culture';
 $user = 'root';
 $pass = '';
 
