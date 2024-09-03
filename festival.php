@@ -40,7 +40,7 @@ error_reporting(E_ALL);
         while ($row = $result->fetch_assoc()) {
             echo '<h3>' . $row['festival_name'] . '</h3>';
             echo '<p>' . $row['description'] . '</p>';
-            echo '<img src="images/' . $row['image'] . '" alt="' . $row['festival_name'] . '">';
+            echo '<img src="' . $row['image'] . '" alt="' . $row['festival_name'] . '">';
         }
     } else {
         echo "No festivals found.";
