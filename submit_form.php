@@ -2,10 +2,10 @@
 header('Content-Type: application/json');
 
 // Database connection configuration
-$servername = "localhost"; // Your database server address
-$username = "root"; // Your database username
-$password = ""; // Your database password
-$dbname = "malaysian_culture"; // Your database name
+$servername = 'sql101.infinityfree.com';
+$username = 'if0_37232003';
+$password = 'AA83841352';
+$dbname = 'if0_37232003_malaysian_culture';
 
 // Create connection
 $conn = new mysqli($servername, $username, $password, $dbname);
