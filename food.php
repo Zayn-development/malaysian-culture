@@ -1,11 +1,11 @@
 <?php
 // Database connection
-$host = 'localhost';
-$db = 'culture';
-$user = 'root';
-$pass = '';
+$servername = 'if0_37232003_malaysian_culture';
+$username = 'if0_37232003';
+$password = 'AA83841352';
+$dbname = 'sql101.infinityfree.com';
 
-$conn = new mysqli($host, $user, $pass, $db);
+$conn = new mysqli($servername, $username, $password, $dbname);
 
 if ($conn->connect_error) {
     die('Connection failed: ' . $conn->connect_error);
