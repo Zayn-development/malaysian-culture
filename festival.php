@@ -1,9 +1,9 @@
 <?php
 // Database connection
-$servername = 'if0_37232003_malaysian_culture';
+$servername = 'sql101.infinityfree.com';
 $username = 'if0_37232003';
 $password = 'AA83841352';
-$dbname = 'sql101.infinityfree.com';
+$dbname = 'if0_37232003_malaysian_culture';
 
 $conn = new mysqli($servername, $username, $password, $dbname);
 
