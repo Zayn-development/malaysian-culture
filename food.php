@@ -1,6 +1,6 @@
 <?php
 // Database connection
-$host = 'localhost';
+$host = 'Zayn-development.github.io';
 $db = 'malaysian_culture';
 $user = 'root';
 $pass = '';
